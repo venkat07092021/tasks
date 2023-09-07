@@ -1,0 +1,67 @@
+#outermost {
+    width : 550px;
+    height : 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background-color: yellow;
+    display : flex;
+}
+#div1 {
+    width : 120px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.class1 {
+    margin-left: 20px;
+    border: 1px solid black;
+    width : 120px;
+    height: 20px;
+    margin-top: 7px;
+    display : flex;
+    background-color: white;
+}
+#outermost {
+    display : flex;
+}
+#small {
+    margin-top: 40px;
+}
+.class2 {
+    width : 15px;
+    height : 20px;
+    border: 1px solid black;
+    margin-top: 7px;
+    background-color: black;
+
+}
+.para1 {
+    margin-top: 0px;
+
+}
+#p1 {
+    color : red;
+}
+#p2 {
+    color : blue;
+}
+#p3 {
+    color : blue;
+}
+
+#p4 {
+    color : blue;
+}
+#h1 {
+    margin-left: 20px;
+    color : brown;
+}
+.p1 {
+    color : brown;
+    margin-left: 20px;
+}
+#hhh111 {
+    color : white;
+    background-color: white;
+}

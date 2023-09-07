@@ -1,0 +1,92 @@
+#outermost {
+    width : 800px;
+    height : 600px;
+    border: 2px solid black;
+    background-color: rgba(189, 17, 78, 0.916);
+}
+#inner {
+    width : 600px;
+    height : 550px;
+    border : 2px solid black;
+    background-color: rgba(73, 7, 7, 0.963);
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.form1 {
+    margin-top: 25px;
+    margin-left: 120px;
+}
+.label1 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.label2 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.label3 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.label4 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.label5 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.Name {
+    width : 220px;
+    height : 30px;
+}
+.Email {
+    width : 220px;
+    height : 30px; 
+}
+.Password {
+    width : 220px;
+    height : 30px;
+}
+.Phonenumber {
+    width : 220px;
+    height : 30px;
+}
+.label6 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+#selectalanguage {
+    width : 180px;
+    height : 40px;
+}
+.label7 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.ZipCode {
+    width : 220px;
+    height : 30px;
+}
+.label8 {
+    display: inline-block;
+    width : 120px;
+    color : white;
+}
+.Address {
+    width : 220px;
+    height : 50px;
+}
+button {
+    margin-left: px;
+    width : 400px;
+    height : 50px;
+    font-size: 20px;
+}
