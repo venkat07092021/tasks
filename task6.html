@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK1</title>
+    <style>
+        tr,td,th{
+            border-radius: 30px;
+            border: 2px solid black;
+        }
+        #sai{
+            border-radius: 15px;
+            width:70vw;
+            border:2px black solid;
+            background-color:rgba(98, 170, 156, 0.615);
+            margin-left:13%;
+        }
+        #outer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            width:40vw;
+            height : 300px;
+            grid-gap:35px;
+            margin-top: 4%;
+            margin-left:34%;
+
+        }
+        .in{
+            border: 3px solid limegreen;
+            padding: 10%;
+
+        }
+        #in1{
+            border-radius: 10px;
+        }
+        #in2{
+            border-radius: 10px;
+
+        }
+        #in3{
+            border-radius: 22px;
+        }
+        #in4{
+            border-radius: 12px;
+        }
+        #in6{
+            border-radius: 22px;
+        }
+        #in7{
+            border-radius: 55%;
+        }
+        #in8 {
+            border-radius: 5px;
+        }
+        #in9{
+            border-radius: 5px 22px 5px 25px;
+        }
+    </style> 
+</head>
+<body>
+    <table id="sai">
+        <tr>
+        <center><th> Firstname</th> </center>
+        <center><th> Lastname</th> </center>
+        <center><th> Age</th></center>
+    </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve </td>
+            <td> Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td> Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <div id="outer">
+        <div class="in" id="in1"></div>
+        <div class="in" id="in2"></div>
+        <div class="in" id="in3"></div>
+        <div class="in" id="in4"></div>
+        <div class="in" id="in5"></div>
+        <div class="in" id="in6"></div>
+        <div class="in" id="in7"></div>
+        <div class="in" id="in8"></div>
+        <div class="in" id="in9"></div>
+
+    </div>
+
+    
+</body>
+</html>

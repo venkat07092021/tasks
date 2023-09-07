@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Style>
+        h1{
+            color:blue
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #id1{
+            white-space: pre;
+            text-align: left;
+        }
+        #id2{
+            padding: 1px;
+        }
+        #id3{
+            padding: 1px;
+        }
+    </Style>
+</head>
+<body>
+    <center><h1>Registration Form</h1></center>
+    <center>
+    <form action="https://www.amazon.in">
+        <table border="1" height = "10" width="40%">
+                <tr>
+                    <th style="width: 23%"><label for="fn">First Name</label></th>
+                    <td style="width: 77%"><input style="width: 98.5%" type="text" First Name="fn" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="un">Last Name</label></th>
+                    <td><input style="width: 98.5%" type="text" Last Name="un" width="45" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input style="width: 98.5%" type="email" Email="email" size=30 required/></td>
+                </tr>
+                <tr>
+                    <th><label for="pwd">Password</label></th>
+                    <td><input style="width: 98.5%" type="text" password="pwd" size=30 required/></td>
+                </tr>
+                <tr>
+                    <th><label for="rpwd">Re-enter Password</label></th>
+                    <td><input style="width: 98.5%" type="text" Repassword="rpwd" size=30 required/></td>
+                </tr>
+                <tr>
+                    <th rowspan="2"><label for="gender">Gender:</label></th>
+                    <td><input type="radio" />Male</br></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" />Female</br></td>
+                </tr>
+                <tr>
+                    <th><label for="Age">Age:</label></th>
+                    <td><input style="width: 98.5%" type="number" Age="age" size=30 /></td>
+                </tr>
+                <tr>
+                    <th><label for="Ph">Phone Number</label></th>
+                    <td><input style="width: 98.5%" type="text" Phone Number="Ph" size=30 /></td>
+                </tr>
+                <tr>
+                    <th><label for="address">Address</label></th>
+                    <td id="id2"><input style="width: 98.5%" type="text" Address="address" size=30/></td>
+                </tr>
+               
+                <tr>
+                    <th><label for="State">State</label></th>
+                    <td><input style="width: 98.5%" type="text" State="State" size=30 required/></td>
+                </tr>
+                <tr>
+                    <th><label for="country">Country</label></th>
+                    <td><select>
+                            <option>Choose your country</option>
+                            <option>India</option>
+                            <option>UK</option>
+                            <option>Russia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Languages Known</th>
+                    <td>
+                        <input type="checkbox"/>English
+                        <input type="checkbox"/>Kannada
+                        <input type="checkbox"/>Hindi
+                        <input type="checkbox"/>Telugu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox"/>Hereby I declare all the given details are true</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <cite id="id1">                                                                                                            Login in to</cite>
+                        <cite><a href="https://www.ethnus.com">Ethnus</a></cite>
+                        <cite>website</cite>
+                    </td>
+                </tr> 
+        </table>
+    </form></center>
+    </br>
+    <center><input type="submit" value ="Register"/></center>    
+</body>
+</html>

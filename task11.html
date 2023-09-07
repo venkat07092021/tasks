@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        #outermost {
+    width : 550px;
+    height : 550px;
+    margin-top:50px;
+}
+#imgdiv {
+    width : 200px;
+    height : 200px;
+}
+#image1 {
+    width : 100%;
+    height : 100%;
+    border-radius: 50%;
+
+}
+#form1 {
+    display : flex;
+    margin : 0px;
+    padding : 0px;
+}
+
+label {
+    font-weight: 100px;
+    margin-left: 0%;
+    font-size:18px;
+}
+#udiv {
+   height : 20px;
+   width : 550px;
+   text-align: left;
+}
+#uinput {
+    height : 33px;
+    width : 550px;
+
+}
+#username {
+    width : 543px;
+    height : 33px;
+}
+#upass {
+    text-align: left;
+    margin-top:23px;
+}
+#password {
+    width : 543px;
+    height : 33px;
+}
+#login {
+    width : 550px;
+    height : 38px;
+    margin-top: 23px;
+    background-color: green;
+    margin-left: 0%;
+    color : white;
+    font-size: 15px;
+}
+#ucheckbox {
+    margin-top: 23px;
+    text-align: left;
+    content: left;
+}
+#last {
+    margin-top: 23px;
+    width : 550px;
+    height : 50px;
+    content: left;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+#cancel {
+    width : 80px;
+    height : 40px;
+    background-color: red;
+    content: left;
+    margin-top: 10px;
+    color : white;
+    border-radius: 10%;
+}
+p {
+    display: inline-block;
+    text-align: right;
+    content: right;
+    margin-left: 340px;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK6</title>
+    <link rel="stylesheet" href="./csstask6.css">
+</head>
+<body>
+    <center>
+    <div id="outermost">
+        <div id="imgdiv">
+        <img src="https://imgk.timesnownews.com/media/121492025_999424297190373_1891457828903451573_n.jpg" alt="Keerthysuresh" id="image1">
+    </div>
+    <form  id="form1">
+        <div>
+        <div id="udiv">
+       <strong> <label for="username">Username </label> </strong>
+       </div>
+       <div id="uinput">
+        <input type="text" class="username" id="username"  placeholder="Enter Username">
+    </div>
+    <div id="upass">
+        <strong><label for="Password">Password</label></strong>
+    </div>
+    <div>
+        <input type="password" class="password" id="password" placeholder="Enter Password">
+    </div>
+    <div id="ulogin">
+        <button id="login">Login</button>
+    </div>
+    <div >
+        <div id="ucheckbox">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="clabel">Remember me</label>
+        </div>
+        <div id="last">
+            <div id="sss">
+                <button id="cancel">Cancel</button>
+                <p>Forgot <a href="https://getemail.io/?comes_from=adwords&campaign_id=5&adgroup_id=23&keyword=generic&gad=1&gclid=EAIaIQobChMIrt3ChdySgQMVGiaDAx1k6goSEAAYASAAEgJ0zfD_BwE">Password?</a></p>
+            </div>
+        </div>
+    </div>
+    </form>
+    </div>
+</center>
+</body>
+</html>
